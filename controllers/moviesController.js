@@ -36,8 +36,6 @@ const moviesController = {
          res.status(500).json({msg: error});
       }
 
-
-
    },
 
    destroy: (req, res) => {
